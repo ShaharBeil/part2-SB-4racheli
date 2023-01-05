@@ -13,7 +13,27 @@
 </head>
 
 <body>
-<?php require '../nav.html'; ?>
+<nav class="menu">
+    <ul>
+        <li><a href="/part2-SB-4racheli/html/index.html">Home</a></li>
+        <li><a href="/part2-SB-4racheli/html/about.html">About</a></li>
+        <li><a href="/part2-SB-4racheli/html/shopNow.html">Shop</a></li>
+        <li><a href="/part2-SB-4racheli/html/ContactUs.html">Contact Us</a></li>
+    </ul>
+    
+    <div class="logo">
+        <a href="/part2-SB-4racheli/html/signIn.html"><img src="/part2-SB-4racheli/icons/profile.png"></a>
+        <a style="padding-left:25px;" href="/part2-SB-4racheli/html/wishList.html"><img src="/part2-SB-4racheli/icons/wish.png"></a>
+        <a style="padding-left:25px;" href="/part2-SB-4racheli/html/cart.html"><img src="/part2-SB-4racheli/icons/cart.png"></a>
+    </div>
+    
+    <form class="search-form">
+        <input type="text" placeholder="Search">
+        <button>Search</button>
+    
+    </form>
+
+</nav>
 
 
 <div class="product-card">
@@ -50,7 +70,18 @@
 
 
 </div>
-<?php require '../footer.html';?>
+<div class="footer"> 
+    <div class="copyright">
+        <p> Thermax &copy 2022 </p>
+    </div>
+    <div class="social">
+        <ul>
+            <li><a href="/part2-SB-4racheli/html/ContactUs.html" class="contact"><i class="far fa-envelope"></i></a></li>
+            <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</div>
 </body>
 
 </html>
